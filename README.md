@@ -55,6 +55,25 @@ It connects directly to your **Plex Media Server** to monitor and display how ma
 
 ### Option A: PlatformIO (Recommended)
 
+#### Installing PlatformIO CLI (`pio`) if not already installed:
+
+* **VS Code Extension (Easiest)**: Install the **PlatformIO IDE** extension from the VS Code Marketplace. It automatically installs `pio` and adds it to your PATH.
+* **Via Python (`pip`)**:
+  ```bash
+  pip install -U platformio
+  ```
+* **Via Homebrew (macOS)**:
+  ```bash
+  brew install platformio
+  ```
+* **Via Official Installer Script**:
+  ```bash
+  curl -fsSL https://raw.githubusercontent.com/platformio/platformio-core-installer/master/get-platformio.py -o get-platformio.py
+  python3 get-platformio.py
+  ```
+
+#### Building & Flashing:
+
 ```bash
 # Build firmware
 pio run
