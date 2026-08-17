@@ -1,0 +1,14 @@
+# PlatformIO & Build outputs
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# Python Virtual Environment
+.venv/
+__pycache__/
+
+# IDE / OS files
+.vscode/
+.idea/
+.DS_Store
+*.swp
